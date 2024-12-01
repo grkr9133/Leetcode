@@ -1,5 +1,6 @@
 #Leetcode Problem 1 TwoSum
 #Author: Radhakrishna Rakesh Grandi
+# Updated in December 01, 2024
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hash_map={} #dictionary to store index:value pairs
