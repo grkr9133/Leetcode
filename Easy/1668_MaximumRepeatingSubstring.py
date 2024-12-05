@@ -15,6 +15,10 @@ class Solution:
         # "aaabaaaabaaabaaaabaaaabaaaabaaaaba"  is expecting 5 "aaaba"
         # while it has 7 "aaaba"
 
+
+        ## well i got the reason why it is not 7 
+        ## it should be a consicutive sequence
+
         count=0
         while True:
             if word * count not in sequence:
